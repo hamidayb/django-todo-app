@@ -15,18 +15,37 @@
     <style>
       body {
         background-color: #f0f0f0;
-        padding-top: 50px;
+        padding-top: 100px;
       }
       .container {
         background-color: #fff;
         max-width: 600px;
-        margin: auto;
-        border-radius: 10px;
-        box-shadow: 2px 2px 5px #eaeaea;
+        padding: 0;
+      }
+      .header-bar {
+        background-color: rgb(247, 156, 0);
+        text-align: center;
+        padding: 20px 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      input[type='submit'] {
+        background-color: #0d6efd;
+        padding: 5px 15px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+      }
+      a {
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
-    <div class="container">{% block content %} {% endblock content %}</div>
+    <div class="container rounded m-auto">
+      <div class="card border-0 rounded" style="width: 100%">
+        {% block content %} {% endblock content %}
+      </div>
+    </div>
   </body>
 </html>

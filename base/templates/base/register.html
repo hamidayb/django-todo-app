@@ -1,7 +1,47 @@
-<h1>Register</h1>
+{% extends 'base/main.html'%} {% block content %}
 
-<form method="post">
-  {% csrf_token %} {{form.as_p}} <input type="submit" name="submit" />
-</form>
+<h1 class="header-bar">Register</h1>
 
-<p>Already have an account? <a href="{% url 'base:login' %}">Login</a></p>
+<div class="card-body">
+  <form method="post">
+    {% csrf_token %}
+    <div class="form-outline mb-4">
+      <label class="form-label" for="form1Example13"
+        >{{form.username.label}}</label
+      >
+      <input type="text" id="username" name="username" class="form-control" />
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+      <label class="form-label" for="form1Example23"
+        >{{form.password1.label}}</label
+      >
+      <input
+        type="password"
+        id="password1"
+        name="password1"
+        class="form-control"
+      />
+    </div>
+
+    <!-- Confirm Password input -->
+    <div class="form-outline mb-4">
+      <label class="form-label" for="form1Example23"
+        >{{form.password2.label}}</label
+      >
+      <input
+        type="password"
+        id="password2"
+        name="password2"
+        class="form-control"
+      />
+    </div>
+
+    <input type="submit" name="submit" />
+  </form>
+  <p class="text-center mt-5">
+    Already have an account? <a href="{% url 'base:login' %}">Login</a>
+  </p>
+</div>
+{% endblock content %}
