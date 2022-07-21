@@ -1,9 +1,35 @@
-<h1>TASKS</h1>
-{% if not tasks %}
-<p>Empty List</p>
+<h1>TODO-APP</h1>
+{% if request.user.is_authenticated %}
+<p>Welcome {{request.user}} - <a href="{% url 'base:logout' %}">Logout</a></p>
+{% else %}
+<p><a href="{% url 'base:login' %}">Login</a></p>
 {% endif %}
-<ul>
+
+<a href="{% url 'base:task-create' %}">Add Task</a> <br />
+
+<form method="get">
+  <input type="text" name="search-area" value="{{search_area}}" />
+  <input type="submit" value="Submit" />
+</form>
+
+{% if not tasks %}
+<p><strong>Nothing in ToDo List</strong></p>
+{% else %}
+<table>
+  <tr>
+    <th>Title</th>
+    <th style="padding-left: 10px; padding-right: 10px">Completed?</th>
+    <th colspan="3">Actions</th>
+  </tr>
   {% for task in tasks %}
-  <li><a href="/task/{{task.id}}">{{task}}</a></li>
+  <tr>
+    <td>{{task}}</td>
+    <td style="padding-left: 10px; padding-right: 10px">{{task.complete}}</td>
+    <td><a href="/task/{{task.id}}">View</a></td>
+    <td><a href="/task-update/{{task.id}}">Edit</a></td>
+    <td><a href="/task-delete/{{task.id}}">Delete</a></td>
+  </tr>
   {% endfor %}
-</ul>
+</table>
+
+{% endif %}

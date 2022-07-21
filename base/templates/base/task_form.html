@@ -1,0 +1,6 @@
+<h1>Add Task</h1>
+<a href="{% url 'base:index' %}">Back</a>
+<form action="" method="post">
+  {% csrf_token %} {{form.as_p}}
+  <input type="submit" name="submit" />
+</form>
