@@ -10,7 +10,8 @@ urlpatterns = [
     path('logout', LogoutView.as_view(next_page='base:login'), name='logout'),
     path('', IndexView.as_view(), name='index'),
     path('task/<int:pk>', TaskDetailView.as_view(), name='task'),
-    path('task-create', TaskCreateView.as_view(), name='task-create'),
+    path('task-create',
+         TaskCreateView.as_view(), name='task-create'),
     path('task-update/<int:pk>', TaskUpdateView.as_view(), name='task-update'),
     path('task-delete/<int:pk>', TaskDeleteView.as_view(), name='task-delete'),
 ]
