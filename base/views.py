@@ -4,9 +4,10 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView, FormVi
 
 from django.contrib.auth.views import LoginView
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.contrib.auth.forms import UserCreationForm
 
-from django.contrib.auth import login
+from .forms import UserRegistrationForm
+
+from django.contrib.auth import login, authenticate
 
 from django.shortcuts import redirect
 from django.urls import reverse_lazy
@@ -22,16 +23,36 @@ class CustomLoginView(LoginView):
     def get_success_url(self):
         return reverse_lazy('base:index')
 
+# def register_view(request, *args, **kwargs):
+#     user = request.user
+#     if user.is_authenticated:
+#         return redirect('base:index',  *args, **kwargs)
+#     context = {}
+#     if request.POST:
+#         form = UserRegistrationForm(request.POST)
+#         if form.is_valid():
+#             form.save()
+#             email = form.cleaned_data.get('email').lower()
+#             raw_password = form.cleaned_data.get('password1')
+#             user = authenticate(email=email, password=raw_password)
+#             login(request, user)
+#             return  redirect('base:index')
+#         else:
+#             context['registration_form'] = form
+#     return render(request, 'base/register.html',  context)
 
 class CustomRegisterView(FormView):
     template_name = 'base/register.html'
-    form_class = UserCreationForm
+    form_class = UserRegistrationForm
     redirect_authenticated_user = True
     success_url = reverse_lazy('base:index')
 
     def form_valid(self, form):
         user = form.save()
         if user is not None:
+            email = form.cleaned_data.get('email').lower()
+            raw_password = form.cleaned_data.get('password1')
+            auth_user = authenticate(email=email, password=raw_password)
             login(self.request, user)
         return super(CustomRegisterView, self).form_valid(form)
 
@@ -50,6 +71,7 @@ class IndexView(LoginRequiredMixin, ListView):
 
         context = super().get_context_data(**kwargs)
         context['tasks'] = context['tasks'].filter(user=self.request.user)
+        context['tasks'] = context['tasks'].sorted('complete')
 
         search_input = self.request.GET.get('search-area') or ''
         if(search_input):
