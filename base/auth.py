@@ -8,10 +8,14 @@ class EmailAuthBackend:
             success = user.check_password(password)
             if success:
                 return user
+            else:
+                raise ValidationError('Wrong Password')
+
         except User.MultipleObjectsReturned:
             user = User.users.filter(email=username).order_by('id').first()
         except User.DoesNotExist:
             raise ValidationError('User doesn\'t exists')
+
 
         if getattr(user, 'is_active') and user.check_password(password):
             return user

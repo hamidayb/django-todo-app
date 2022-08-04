@@ -1,5 +1,7 @@
-from dataclasses import dataclass
-from datetime import datetime
+from codecs import backslashreplace_errors
+from doctest import BLANKLINE_MARKER
+from django.utils import timezone
+# from datetime import datetime
 from .validations import DescriptionValidator
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
@@ -42,8 +44,8 @@ class UserManager(BaseUserManager):
 class User(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(verbose_name="email", max_length=60, unique=True)
     name = models.CharField(max_length=50)
-    age = models.IntegerField(default=0)
-    city = models.CharField(max_length=50)
+    age = models.IntegerField(default=0, blank=True, null=True)
+    city = models.CharField(max_length=50, blank=True, null=True)
     country = models.CharField(max_length=50)
     created = models.DateTimeField(auto_now_add=False)
     is_admin = models.BooleanField(default=False)
@@ -52,7 +54,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     is_superuser = models.BooleanField(default=False)
 
     USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['name', 'city', 'age']
+    REQUIRED_FIELDS = ['name']
 
     users = UserManager()
 
@@ -67,7 +69,7 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     def save(self, *args, **kwargs):
         self.country = 'Pakistan'
-        self.created = datetime.now()
+        self.created = timezone.now()
         return super(User, self).save(*args, **kwargs)
 
 
@@ -88,7 +90,7 @@ class Task(models.Model):
     description = models.TextField(validators=[DescriptionValidator])
     complete = models.BooleanField(default=False)
     created = models.DateTimeField(auto_now_add=True)
-    updated = models.DateTimeField(default=datetime(2022, 1, 1))
+    updated = models.DateTimeField()
 
     REQUIRED_FIELDS = ['title', 'description']
 
@@ -98,7 +100,7 @@ class Task(models.Model):
         return self.title
 
     def save(self, *args, **kwargs):
-        self.updated = datetime.now()
+        self.updated = timezone.now()
         return super(Task, self).save(*args, **kwargs)
 
     class Meta:
