@@ -1,4 +1,10 @@
-{% extends 'base/main.html'%} {% block content %}
+{% extends 'base/main.html'%} 
+{% block style %}
+body{
+  padding-top: 10px !important
+}
+{%endblock%}
+{% block content %}
 
 <h1 class="header-bar">Register</h1>
 
@@ -8,7 +14,7 @@
 
     <div class="form-outline mb-4">
       <label class="form-label" for="email"
-        >Email*</label
+        >{{form.email.label}}*</label
       >
       <input type="email" id="email" name="email" class="form-control" />
       {% for error in form.email.errors %}
@@ -18,7 +24,7 @@
 
     <div class="form-outline mb-4">
       <label class="form-label" for="name"
-        >Name*</label
+        >{{form.name.label}}*</label
       >
       <input type="text" id="name" name="name" class="form-control" />
       {% for error in form.name.errors %}
@@ -28,7 +34,7 @@
 
     <div class="form-outline mb-4">
       <label class="form-label" for="age"
-        >Age*</label
+        >{{form.age.label}}</label
       >
       <input type="text" id="age" name="age" class="form-control" />
       {% for error in form.age.errors %}
@@ -38,7 +44,7 @@
 
     <div class="form-outline mb-4">
       <label class="form-label" for="city"
-        >City*</label
+        >{{form.city.label}}</label
       >
       <input type="text" id="city" name="city" class="form-control" />
       {% for error in form.city.errors %}
@@ -49,7 +55,7 @@
     <!-- Password input -->
     <div class="form-outline mb-4">
       <label class="form-label" for="password1"
-        >Password*</label
+        >{{form.password1.label}}*</label
       >
       <input
         type="password"
@@ -62,7 +68,7 @@
     <!-- Confirm Password input -->
     <div class="form-outline mb-4">
       <label class="form-label" for="password2"
-        >Confirm Password*</label>
+        >{{form.password2.label|title}}*</label>
       <input
         type="password"
         id="password2"

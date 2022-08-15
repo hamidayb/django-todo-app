@@ -8,17 +8,29 @@ class Command(BaseCommand):
     help = "Add user"
 
     def add_arguments(self, parser):
-        parser.add_argument('email', nargs='?', type=str)
-        parser.add_argument('name', nargs='?', type=str)
+        parser.add_argument('--email', nargs='?', type=str)
+        parser.add_argument('--name', nargs='?', type=str)
         parser.add_argument('--age', nargs='?', type=int)
         parser.add_argument('--city', nargs='?', type=str)
-        parser.add_argument('pass', nargs='?', type=str)
+        parser.add_argument('--pass', nargs='?', type=str)
 
 
     def handle(self, *args, **options):           
-        email = options['email']
-        name = options['name']
-        password = make_password(options['pass'])
+        if(options['email']):    
+            email = options['email']
+        else:
+            raise CommandError('Email not specified!')
+
+        if(options['name']):    
+            name = options['name']
+        else:
+            raise CommandError('Name not specified!')
+
+        if(options['pass']):    
+            password = make_password(options['pass'])
+        else:
+            raise CommandError('Password not specified!')
+            
         age = None
         city = None
         if(options['age']):    

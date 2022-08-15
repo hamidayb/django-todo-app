@@ -1,0 +1,32 @@
+{% extends 'base/main.html'%} {% load tz %} {% block content %}
+
+<table class="mt-3" style="width: 90%; margin: auto">
+  <tr>
+    <th>
+      ID
+      <hr />
+    </th>
+    <th>
+      Time
+      <hr />
+    </th>
+    <th>
+      Timezone
+      <hr />
+    </th>
+  </tr>
+  {% for row in times_list %}
+  <tr>
+    <td>{{row.id}}</td>
+    <td>
+      {% if row.timezone == 'PST' %} 
+        {% timezone "US/Pacific" %}{{row.time}}{% endtimezone %} 
+      {% else %} 
+          {% timezone "UTC" %}{{row.time}}{% endtimezone %} 
+      {% endif %}
+    </td>
+    <td style="font-size: 14px">{{row.timezone}}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock content %}

@@ -17,9 +17,11 @@ class Command(BaseCommand):
             
             if(options['d']):
                 task.delete()
+                self.stdout.write(self.style.SUCCESS('Task "%s" deleted successfully' % task_id))
             else:
                 task.complete = True
                 task.save()
+                self.stdout.write(self.style.SUCCESS('Task "%s" set to complete ' % task_id))
             
 
-            self.stdout.write(self.style.SUCCESS('Task "%s" set to complete ' % task_id))
+            
