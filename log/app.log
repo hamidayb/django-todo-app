@@ -1,115 +1,1802 @@
-2022-08-15 01:57:56,562 django.utils.autoreload INFO Watching for file changes with StatReloader
-2022-08-15 02:00:01,214 base.cron INFO {'count': 10, 'timezone': 'PST'}
-2022-08-15 02:00:06,277 base.cron INFO {'count': 20, 'timezone': 'PST'}
-2022-08-15 02:00:11,358 base.cron INFO {'count': 30, 'timezone': 'PST'}
-2022-08-15 02:00:16,432 base.cron INFO {'count': 40, 'timezone': 'PST'}
-2022-08-15 02:00:21,507 base.cron INFO {'count': 50, 'timezone': 'PST'}
-2022-08-15 02:00:26,548 base.cron INFO {'count': 60, 'timezone': 'PST'}
-2022-08-15 02:00:31,633 base.cron INFO {'count': 70, 'timezone': 'PST'}
-2022-08-15 02:00:36,700 base.cron INFO {'count': 80, 'timezone': 'PST'}
-2022-08-15 02:00:41,767 base.cron INFO {'count': 90, 'timezone': 'PST'}
-2022-08-15 02:00:46,831 base.cron INFO {'count': 0, 'timezone': 'UTC'}
-2022-08-15 02:01:01,412 base.cron INFO {'count': 10, 'timezone': 'UTC'}
-2022-08-15 02:01:06,494 base.cron INFO {'count': 20, 'timezone': 'UTC'}
-2022-08-15 02:01:11,573 base.cron INFO {'count': 30, 'timezone': 'UTC'}
-2022-08-15 02:01:16,657 base.cron INFO {'count': 40, 'timezone': 'UTC'}
-2022-08-15 02:01:21,732 base.cron INFO {'count': 50, 'timezone': 'UTC'}
-2022-08-15 02:01:26,813 base.cron INFO {'count': 60, 'timezone': 'UTC'}
-2022-08-15 02:01:31,855 base.cron INFO {'count': 70, 'timezone': 'UTC'}
-2022-08-15 02:01:36,940 base.cron INFO {'count': 80, 'timezone': 'UTC'}
-2022-08-15 02:01:42,009 base.cron INFO {'count': 90, 'timezone': 'UTC'}
-2022-08-15 02:01:47,051 base.cron INFO {'count': 0, 'timezone': 'PST'}
-2022-08-15 02:02:00,602 base.cron INFO {'count': 10, 'timezone': 'PST'}
-2022-08-15 02:02:05,675 base.cron INFO {'count': 20, 'timezone': 'PST'}
-2022-08-15 02:02:10,749 base.cron INFO {'count': 30, 'timezone': 'PST'}
-2022-08-15 02:02:15,823 base.cron INFO {'count': 40, 'timezone': 'PST'}
-2022-08-15 02:02:20,894 base.cron INFO {'count': 50, 'timezone': 'PST'}
-2022-08-15 02:02:25,900 base.cron INFO {'count': 60, 'timezone': 'PST'}
-2022-08-15 02:02:30,973 base.cron INFO {'count': 70, 'timezone': 'PST'}
-2022-08-15 02:02:36,061 base.cron INFO {'count': 80, 'timezone': 'PST'}
-2022-08-15 02:02:41,137 base.cron INFO {'count': 90, 'timezone': 'PST'}
-2022-08-15 02:02:46,214 base.cron INFO {'count': 0, 'timezone': 'UTC'}
-2022-08-15 02:03:00,858 base.cron INFO {'count': 10, 'timezone': 'UTC'}
-2022-08-15 02:03:05,878 base.cron INFO {'count': 20, 'timezone': 'UTC'}
-2022-08-15 02:03:10,953 base.cron INFO {'count': 30, 'timezone': 'UTC'}
-2022-08-15 02:03:16,038 base.cron INFO {'count': 40, 'timezone': 'UTC'}
-2022-08-15 02:03:21,113 base.cron INFO {'count': 50, 'timezone': 'UTC'}
-2022-08-15 02:03:26,182 base.cron INFO {'count': 60, 'timezone': 'UTC'}
-2022-08-15 02:03:31,233 base.cron INFO {'count': 70, 'timezone': 'UTC'}
-2022-08-15 02:03:36,305 base.cron INFO {'count': 80, 'timezone': 'UTC'}
-2022-08-15 02:03:41,387 base.cron INFO {'count': 90, 'timezone': 'UTC'}
-2022-08-15 02:03:46,448 base.cron INFO {'count': 0, 'timezone': 'PST'}
-2022-08-15 02:04:01,035 base.cron INFO {'count': 10, 'timezone': 'PST'}
-2022-08-15 02:04:06,099 base.cron INFO {'count': 20, 'timezone': 'PST'}
-2022-08-15 02:04:11,182 base.cron INFO {'count': 30, 'timezone': 'PST'}
-2022-08-15 02:04:16,261 base.cron INFO {'count': 40, 'timezone': 'PST'}
-2022-08-15 02:04:21,342 base.cron INFO {'count': 50, 'timezone': 'PST'}
-2022-08-15 02:04:26,422 base.cron INFO {'count': 60, 'timezone': 'PST'}
-2022-08-15 02:04:31,497 base.cron INFO {'count': 70, 'timezone': 'PST'}
-2022-08-15 02:04:36,575 base.cron INFO {'count': 80, 'timezone': 'PST'}
-2022-08-15 02:04:41,658 base.cron INFO {'count': 90, 'timezone': 'PST'}
-2022-08-15 02:04:46,678 base.cron INFO {'count': 0, 'timezone': 'UTC'}
-2022-08-15 02:05:00,701 base.cron INFO {'count': 10, 'timezone': 'UTC'}
-2022-08-15 02:05:05,781 base.cron INFO {'count': 20, 'timezone': 'UTC'}
-2022-08-15 02:05:10,859 base.cron INFO {'count': 30, 'timezone': 'UTC'}
-2022-08-15 02:05:15,938 base.cron INFO {'count': 40, 'timezone': 'UTC'}
-2022-08-15 02:05:21,036 base.cron INFO {'count': 50, 'timezone': 'UTC'}
-2022-08-15 02:05:26,048 base.cron INFO {'count': 60, 'timezone': 'UTC'}
-2022-08-15 02:05:31,075 base.cron INFO {'count': 70, 'timezone': 'UTC'}
-2022-08-15 02:05:36,158 base.cron INFO {'count': 80, 'timezone': 'UTC'}
-2022-08-15 02:05:41,204 base.cron INFO {'count': 90, 'timezone': 'UTC'}
-2022-08-15 02:05:46,280 base.cron INFO {'count': 0, 'timezone': 'PST'}
-2022-08-15 02:06:00,852 base.cron INFO {'count': 10, 'timezone': 'PST'}
-2022-08-15 02:06:05,926 base.cron INFO {'count': 20, 'timezone': 'PST'}
-2022-08-15 02:06:10,948 base.cron INFO {'count': 30, 'timezone': 'PST'}
-2022-08-15 02:06:15,972 base.cron INFO {'count': 40, 'timezone': 'PST'}
-2022-08-15 02:06:21,055 base.cron INFO {'count': 50, 'timezone': 'PST'}
-2022-08-15 02:06:26,116 base.cron INFO {'count': 60, 'timezone': 'PST'}
-2022-08-15 02:06:31,201 base.cron INFO {'count': 70, 'timezone': 'PST'}
-2022-08-15 02:06:36,279 base.cron INFO {'count': 80, 'timezone': 'PST'}
-2022-08-15 02:06:41,356 base.cron INFO {'count': 90, 'timezone': 'PST'}
-2022-08-15 02:06:46,439 base.cron INFO {'count': 0, 'timezone': 'UTC'}
-2022-08-15 02:07:01,103 base.cron INFO {'count': 10, 'timezone': 'UTC'}
-2022-08-15 02:07:06,185 base.cron INFO {'count': 20, 'timezone': 'UTC'}
-2022-08-15 02:07:11,256 base.cron INFO {'count': 30, 'timezone': 'UTC'}
-2022-08-15 02:07:16,333 base.cron INFO {'count': 40, 'timezone': 'UTC'}
-2022-08-15 02:07:21,415 base.cron INFO {'count': 50, 'timezone': 'UTC'}
-2022-08-15 02:07:26,462 base.cron INFO {'count': 60, 'timezone': 'UTC'}
-2022-08-15 02:07:31,540 base.cron INFO {'count': 70, 'timezone': 'UTC'}
-2022-08-15 02:07:36,575 base.cron INFO {'count': 80, 'timezone': 'UTC'}
-2022-08-15 02:07:41,582 base.cron INFO {'count': 90, 'timezone': 'UTC'}
-2022-08-15 02:07:46,667 base.cron INFO {'count': 0, 'timezone': 'PST'}
-2022-08-15 02:08:01,306 base.cron INFO {'count': 10, 'timezone': 'PST'}
-2022-08-15 02:08:06,388 base.cron INFO {'count': 20, 'timezone': 'PST'}
-2022-08-15 02:08:11,451 base.cron INFO {'count': 30, 'timezone': 'PST'}
-2022-08-15 02:08:16,534 base.cron INFO {'count': 40, 'timezone': 'PST'}
-2022-08-15 02:08:21,616 base.cron INFO {'count': 50, 'timezone': 'PST'}
-2022-08-15 02:08:26,681 base.cron INFO {'count': 60, 'timezone': 'PST'}
-2022-08-15 02:08:31,767 base.cron INFO {'count': 70, 'timezone': 'PST'}
-2022-08-15 02:08:36,792 base.cron INFO {'count': 80, 'timezone': 'PST'}
-2022-08-15 02:08:41,864 base.cron INFO {'count': 90, 'timezone': 'PST'}
-2022-08-15 02:08:46,944 base.cron INFO {'count': 0, 'timezone': 'UTC'}
-2022-08-15 02:09:00,568 base.cron INFO {'count': 10, 'timezone': 'UTC'}
-2022-08-15 02:09:05,578 base.cron INFO {'count': 20, 'timezone': 'UTC'}
-2022-08-15 02:09:10,660 base.cron INFO {'count': 10, 'timezone': 'PST'}
-2022-08-15 02:09:15,672 base.cron INFO {'count': 20, 'timezone': 'PST'}
-2022-08-15 02:09:20,683 base.cron INFO {'count': 30, 'timezone': 'PST'}
-2022-08-15 02:09:25,690 base.cron INFO {'count': 40, 'timezone': 'PST'}
-2022-08-15 02:09:30,753 base.cron INFO {'count': 50, 'timezone': 'PST'}
-2022-08-15 02:09:35,831 base.cron INFO {'count': 60, 'timezone': 'PST'}
-2022-08-15 02:09:40,908 base.cron INFO {'count': 70, 'timezone': 'PST'}
-2022-08-15 02:09:45,986 base.cron INFO {'count': 80, 'timezone': 'PST'}
-2022-08-15 02:10:00,592 base.cron INFO {'count': 90, 'timezone': 'PST'}
-2022-08-15 02:10:05,667 base.cron INFO {'count': 0, 'timezone': 'UTC'}
-2022-08-15 02:10:10,745 base.cron INFO {'count': 10, 'timezone': 'UTC'}
-2022-08-15 02:10:15,829 base.cron INFO {'count': 20, 'timezone': 'UTC'}
-2022-08-15 02:10:20,911 base.cron INFO {'count': 30, 'timezone': 'UTC'}
-2022-08-15 02:10:26,091 base.cron INFO {'count': 40, 'timezone': 'UTC'}
-2022-08-15 02:10:31,120 base.cron INFO {'count': 50, 'timezone': 'UTC'}
-2022-08-15 02:10:36,199 base.cron INFO {'count': 60, 'timezone': 'UTC'}
-2022-08-15 02:10:41,206 base.cron INFO {'count': 70, 'timezone': 'UTC'}
-2022-08-15 02:10:46,280 base.cron INFO {'count': 80, 'timezone': 'UTC'}
-2022-08-15 02:11:00,972 base.cron INFO {'count': 90, 'timezone': 'UTC'}
-2022-08-15 02:12:00,747 base.cron INFO {'count': 0, 'timezone': 'PST'}
-2022-08-15 02:13:01,356 base.cron INFO {'count': 10, 'timezone': 'PST'}
-2022-08-15 02:14:01,053 base.cron INFO {'count': 20, 'timezone': 'PST'}
+2022-08-17 04:53:50,622 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 04:54:14,413 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 04:54:24,297 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 04:54:24,298 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 04:55:04,142 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 04:55:04,622 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 04:55:05,951 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 04:55:05,954 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 04:55:36,408 django.request ERROR Internal Server Error: /api/users
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 15, in create
+    serializer = UserSerializer(queryset, many=True)
+NameError: name 'queryset' is not defined
+2022-08-17 04:55:45,832 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 04:55:46,562 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 04:55:46,940 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 04:55:46,940 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 04:56:20,669 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 04:56:20,670 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 04:58:02,150 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 04:58:02,702 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 04:58:05,005 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 04:58:05,006 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 04:58:24,283 django.request ERROR Internal Server Error: /api/users
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 16, in create
+    if serializer.is_valid():
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 220, in is_valid
+    assert hasattr(self, 'initial_data'), (
+AssertionError: Cannot call `.is_valid()` as no `data=` keyword argument was passed when instantiating the serializer instance.
+2022-08-17 04:58:36,624 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 04:58:37,109 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 04:58:38,689 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 04:58:38,689 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 04:58:43,637 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 04:58:43,637 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 04:58:46,401 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 04:58:46,401 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 04:58:54,260 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 04:58:54,878 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 05:33:21,135 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 05:33:21,828 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 05:33:39,024 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 05:33:39,472 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 05:33:43,570 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 05:33:43,570 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 05:33:45,113 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 05:33:45,114 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 05:33:45,855 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 05:33:45,855 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 06:43:33,001 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 06:43:33,566 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 06:43:36,234 django.request ERROR Internal Server Error: /api/users
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 45, in list
+    serializer = self.get_serializer(queryset, many=True)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'UserAPISet' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+2022-08-17 06:43:46,796 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 06:43:47,750 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 06:43:48,438 django.request ERROR Internal Server Error: /api/users
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 45, in list
+    serializer = self.get_serializer(queryset, many=True)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 110, in get_serializer
+    return serializer_class(*args, **kwargs)
+TypeError: 'ListSerializer' object is not callable
+2022-08-17 06:43:55,269 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 06:43:55,943 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 06:43:57,241 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 06:43:57,242 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 06:44:19,366 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 06:44:19,366 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 06:44:20,660 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 06:44:20,661 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 06:44:21,532 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 06:44:21,532 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 06:44:28,780 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 06:44:28,781 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 06:44:32,258 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 06:44:32,260 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 06:48:05,649 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 06:48:06,191 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 06:48:07,205 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 06:48:07,205 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 06:48:17,122 django.request WARNING Forbidden: /api/users
+2022-08-17 06:52:21,608 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/urls.py changed, reloading.
+2022-08-17 06:52:22,233 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 06:52:35,074 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/urls.py changed, reloading.
+2022-08-17 06:52:35,521 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 06:53:00,700 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/urls.py changed, reloading.
+2022-08-17 06:53:01,179 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 06:55:01,496 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/urls.py changed, reloading.
+2022-08-17 06:55:01,975 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 06:55:04,519 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 06:55:04,989 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 06:55:12,478 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 06:55:13,102 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 06:55:15,751 django.request WARNING Forbidden: /api/users
+2022-08-17 06:55:22,869 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 06:55:23,498 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 06:55:23,857 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 06:55:23,858 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:00:33,877 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 07:00:34,463 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:00:38,088 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 07:00:38,701 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:00:43,294 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:00:43,294 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:00:43,334 django.request WARNING Bad Request: /api/users
+2022-08-17 07:00:49,656 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 07:00:50,125 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:00:51,079 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:00:51,080 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:16:44,548 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 07:16:45,064 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:16:46,356 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 07:16:46,824 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:17:15,380 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:17:15,902 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:17:35,185 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:17:35,666 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:17:54,695 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:17:55,255 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:18:06,084 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:18:06,634 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:18:27,945 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:18:28,387 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:19:09,172 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:19:09,796 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:19:13,068 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:19:13,767 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:19:18,242 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:19:18,737 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:19:31,402 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:19:32,136 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:20:11,023 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:20:11,466 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:21:07,292 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:21:07,836 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:21:12,630 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:21:12,630 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:22:04,665 django.request ERROR Internal Server Error: /api/users
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 19, in create
+    serializer = UserSerializer(date=request.data)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 116, in __init__
+    super().__init__(**kwargs)
+TypeError: Field.__init__() got an unexpected keyword argument 'date'
+2022-08-17 07:22:34,874 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:22:35,606 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:22:38,519 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:22:38,520 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:22:43,208 django.request WARNING Not Found: /api/user
+2022-08-17 07:22:44,470 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:22:44,475 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:23:11,189 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:23:11,190 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:23:14,864 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:23:14,864 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:23:19,346 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:23:19,346 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:24:07,179 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:24:11,882 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:24:11,882 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:24:16,794 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:24:16,794 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:24:17,479 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:24:17,479 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:24:17,937 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:24:17,937 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:24:18,187 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:24:18,188 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:24:18,510 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:24:18,511 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:25:04,081 django.request ERROR Internal Server Error: /api/users1/
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 28, in retrieve
+    return Response(serializer.data)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+TypeError: 'User' object is not iterable
+2022-08-17 07:25:30,168 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:25:30,747 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:26:25,427 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:26:25,916 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:26:27,645 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:26:27,645 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:28:49,488 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:28:49,931 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:28:52,642 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:28:52,643 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:28:53,812 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:28:53,813 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:29:09,173 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:29:09,831 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:29:13,906 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:29:13,907 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:29:41,705 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:29:42,506 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:29:45,786 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:29:45,786 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:29:46,776 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:29:46,776 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:29:52,059 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:29:52,059 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:29:54,294 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:29:54,294 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:30:03,774 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:30:04,306 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:30:07,683 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:30:08,142 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:30:29,642 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:30:29,642 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:30:33,145 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:30:33,145 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:30:40,408 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:30:40,408 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:31:48,063 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:31:48,063 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:31:51,402 django.request WARNING Not Found: /api/users/12/okara
+2022-08-17 07:31:53,846 django.request WARNING Not Found: /api/users/1
+2022-08-17 07:31:58,195 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:31:58,195 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:32:06,388 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:32:06,388 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:32:09,667 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:32:09,667 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:32:11,863 django.request ERROR Internal Server Error: /api/users4/
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 27, in retrieve
+    user = User.users.get(id=pk)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+base.models.User.DoesNotExist: User matching query does not exist.
+2022-08-17 07:32:14,240 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:32:14,240 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:32:16,578 django.request ERROR Internal Server Error: /api/users6/
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 27, in retrieve
+    user = User.users.get(id=pk)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+base.models.User.DoesNotExist: User matching query does not exist.
+2022-08-17 07:32:20,211 django.request ERROR Internal Server Error: /api/users7/
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 27, in retrieve
+    user = User.users.get(id=pk)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+base.models.User.DoesNotExist: User matching query does not exist.
+2022-08-17 07:32:22,728 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:32:22,728 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:33:06,937 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 07:33:07,558 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:34:11,351 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 07:34:11,846 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:34:25,629 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:34:26,132 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:36:52,851 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:36:53,272 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:37:02,100 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:37:02,766 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:38:27,488 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:38:28,086 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:38:36,052 django.request WARNING Not Found: /api/users/
+2022-08-17 07:38:40,595 django.request ERROR Internal Server Error: /api/users
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+TypeError: 'NoneType' object is not iterable
+2022-08-17 07:39:13,239 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:39:13,837 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:39:18,120 django.request ERROR Internal Server Error: /api/users
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+TypeError: 'NoneType' object is not iterable
+2022-08-17 07:39:35,034 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:39:35,519 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:39:36,220 django.request ERROR Internal Server Error: /api/users
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+TypeError: 'NoneType' object is not iterable
+2022-08-17 07:39:37,106 django.request ERROR Internal Server Error: /api/users
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+TypeError: 'NoneType' object is not iterable
+2022-08-17 07:39:37,546 django.request ERROR Internal Server Error: /api/users
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+TypeError: 'NoneType' object is not iterable
+2022-08-17 07:39:37,827 django.request ERROR Internal Server Error: /api/users
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+TypeError: 'NoneType' object is not iterable
+2022-08-17 07:39:38,057 django.request ERROR Internal Server Error: /api/users
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+TypeError: 'NoneType' object is not iterable
+2022-08-17 07:39:38,301 django.request ERROR Internal Server Error: /api/users
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+TypeError: 'NoneType' object is not iterable
+2022-08-17 07:39:38,455 django.request ERROR Internal Server Error: /api/users
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+TypeError: 'NoneType' object is not iterable
+2022-08-17 07:39:38,698 django.request ERROR Internal Server Error: /api/users
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+TypeError: 'NoneType' object is not iterable
+2022-08-17 07:39:38,900 django.request ERROR Internal Server Error: /api/users
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+TypeError: 'NoneType' object is not iterable
+2022-08-17 07:40:45,891 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:40:46,600 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:40:49,367 django.request WARNING Forbidden: /api/users
+2022-08-17 07:41:25,579 django.request WARNING Forbidden: /api/users1/
+2022-08-17 07:41:37,503 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:41:37,504 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:41:42,341 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:41:42,342 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:41:46,230 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:41:46,230 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:41:50,334 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:41:50,334 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:42:29,362 django.request WARNING Forbidden: /api/users22/
+2022-08-17 07:42:56,349 django.request WARNING Not Found: /api/users/
+2022-08-17 07:43:00,789 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:43:00,790 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:43:23,997 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:43:23,997 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:43:42,282 django.request WARNING Forbidden: /api/users1/
+2022-08-17 07:43:51,286 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:43:51,286 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:48:54,422 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:48:54,955 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:49:00,824 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:49:00,824 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:49:07,450 django.request WARNING Forbidden: /api/users1/
+2022-08-17 07:49:22,699 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:49:23,274 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:49:25,325 django.request WARNING Forbidden: /api/users1/
+2022-08-17 07:49:26,227 django.request WARNING Forbidden: /api/users1/
+2022-08-17 07:49:26,723 django.request WARNING Forbidden: /api/users1/
+2022-08-17 07:49:26,992 django.request WARNING Forbidden: /api/users1/
+2022-08-17 07:49:27,235 django.request WARNING Forbidden: /api/users1/
+2022-08-17 07:49:27,492 django.request WARNING Forbidden: /api/users1/
+2022-08-17 07:49:27,728 django.request WARNING Forbidden: /api/users1/
+2022-08-17 07:49:27,911 django.request WARNING Forbidden: /api/users1/
+2022-08-17 07:49:28,107 django.request WARNING Forbidden: /api/users1/
+2022-08-17 07:49:28,306 django.request WARNING Forbidden: /api/users1/
+2022-08-17 07:49:28,476 django.request WARNING Forbidden: /api/users1/
+2022-08-17 07:49:28,651 django.request WARNING Forbidden: /api/users1/
+2022-08-17 07:49:32,994 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:49:33,717 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:49:36,601 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:49:36,603 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:51:27,836 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:51:28,761 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:51:29,941 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:51:29,941 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:51:37,519 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:51:37,949 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:52:31,395 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:52:31,853 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:52:34,360 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:52:34,361 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:56:01,360 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:56:01,966 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:56:02,828 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:56:02,829 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:56:15,096 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:56:15,755 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:56:54,667 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:56:55,412 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:56:56,824 django.request ERROR Internal Server Error: /api/users1/
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 27, in retrieve
+    name
+NameError: name 'name' is not defined
+2022-08-17 07:57:04,473 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:57:05,287 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:57:21,163 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:57:21,749 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:57:24,023 django.request ERROR Internal Server Error: /api/users1/
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 25, in retrieve
+    name
+NameError: name 'name' is not defined
+2022-08-17 07:57:41,033 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:57:41,608 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:57:49,480 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:57:50,170 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:57:50,929 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:57:50,930 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:58:44,479 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:58:45,012 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:59:09,411 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:59:09,845 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:59:17,519 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:59:18,072 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:59:26,789 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:59:27,287 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:59:29,660 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:59:29,660 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 07:59:39,755 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:59:40,267 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:59:43,825 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 07:59:44,505 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 07:59:44,983 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 07:59:44,983 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 08:01:46,494 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:01:46,995 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:01:56,783 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:01:57,200 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:05:54,353 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:05:54,781 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:06:13,997 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:06:14,425 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:06:30,894 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:07:22,091 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:07:22,885 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:08:02,943 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:08:03,485 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:08:41,147 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:08:41,639 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:08:48,245 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:08:48,772 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:08:56,337 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:08:56,772 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:09:22,246 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:09:22,776 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:09:31,636 django.request WARNING Not Found: /api/users/modelview
+2022-08-17 08:09:40,015 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:09:40,659 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:09:41,199 django.request WARNING Not Found: /api/users/modelview
+2022-08-17 08:09:43,614 django.request WARNING Not Found: /api/users/modelview/
+2022-08-17 08:09:48,222 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:09:48,819 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:09:49,010 django.request WARNING Not Found: /api/users/modelview/
+2022-08-17 08:10:10,993 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:10:11,684 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:10:15,264 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:10:15,779 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:10:21,217 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:10:21,695 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:10:23,049 django.request WARNING Not Found: /api/users/modelview/
+2022-08-17 08:10:23,964 django.request WARNING Not Found: /api/users/modelview/
+2022-08-17 08:10:24,521 django.request WARNING Not Found: /api/users/modelview/
+2022-08-17 08:10:24,713 django.request WARNING Not Found: /api/users/modelview/
+2022-08-17 08:10:24,959 django.request WARNING Not Found: /api/users/modelview/
+2022-08-17 08:10:25,193 django.request WARNING Not Found: /api/users/modelview/
+2022-08-17 08:10:25,427 django.request WARNING Not Found: /api/users/modelview/
+2022-08-17 08:10:41,285 django.request WARNING Forbidden: /api/users
+2022-08-17 08:10:46,671 django.request WARNING Not Found: /api/users/modelview
+2022-08-17 08:11:29,948 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:11:30,430 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:11:33,243 django.request WARNING Not Found: /api/users/modelview
+2022-08-17 08:12:06,293 django.request WARNING Not Found: /api/users/modelview/recent_users
+2022-08-17 08:12:59,785 django.request WARNING Not Found: /api/users/modelview/1/recent_users
+2022-08-17 08:13:02,947 django.request WARNING Not Found: /api/users/modelview
+2022-08-17 08:13:13,097 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:13:13,568 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:13:23,406 django.request WARNING Not Found: /api/users/recent_users
+2022-08-17 08:13:25,399 django.request WARNING Not Found: /api/users/recent_users/
+2022-08-17 08:15:59,105 django.request WARNING Not Found: /api/users/recent_users/
+2022-08-17 08:16:04,590 django.request WARNING Not Found: /api/users/recent_users/
+2022-08-17 08:16:16,980 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:16:17,460 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:16:26,288 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:16:27,037 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:16:30,318 django.request WARNING Not Found: /api/users/model/
+2022-08-17 08:16:38,815 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:16:39,408 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:17:02,657 django.request WARNING Not Found: /api/users/model_detail
+2022-08-17 08:17:05,487 django.request WARNING Not Found: /api/users/model__detail
+2022-08-17 08:17:10,002 django.request WARNING Not Found: /api/users/model/detail
+2022-08-17 08:24:08,971 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:24:09,482 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:24:31,576 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:24:32,102 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:26:14,306 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:26:14,733 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:26:22,494 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:26:22,957 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:26:24,196 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:26:24,620 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:26:29,890 django.request WARNING Not Found: /api/users/1/recent
+2022-08-17 08:26:34,279 django.request WARNING Not Found: /api/users/1/recent/
+2022-08-17 08:26:50,175 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:26:50,602 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:26:51,806 django.request WARNING Not Found: /api/users/1/recent/
+2022-08-17 08:27:08,673 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:27:09,387 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:27:10,439 django.request WARNING Not Found: /api/users/1/recent/
+2022-08-17 08:27:12,929 django.request WARNING Not Found: /api/users1/recent/
+2022-08-17 08:27:28,595 django.utils.autoreload INFO /Users/hamidayub/todo_app/todo_app/urls.py changed, reloading.
+2022-08-17 08:27:29,111 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:27:31,148 django.request WARNING Not Found: /api/users1/recent/
+2022-08-17 08:27:43,060 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:27:43,472 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:27:44,644 django.request WARNING Not Found: /api/users1/recent/
+2022-08-17 08:27:47,735 django.request WARNING Not Found: /api/users/1/recent/
+2022-08-17 08:27:58,068 django.request WARNING Not Found: /api/users/ 1/recent/
+2022-08-17 08:28:01,531 django.request WARNING Not Found: /api/users/1/recent/
+2022-08-17 08:28:12,404 django.request WARNING Not Found: /api/users/1/recent/
+2022-08-17 08:28:16,170 django.request WARNING Forbidden: /api/users/
+2022-08-17 08:28:48,038 django.request ERROR Internal Server Error: /api/users/1/recent
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: UserAPIModelSet.recent_users() missing 1 required positional argument: 'request'
+2022-08-17 08:29:00,889 django.request ERROR Internal Server Error: /api/users/1/recent
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: UserAPIModelSet.recent_users() missing 1 required positional argument: 'request'
+2022-08-17 08:29:00,934 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:29:01,440 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:29:04,779 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:29:05,392 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:29:05,652 django.request ERROR Internal Server Error: /api/users/1/recent
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: UserAPIModelSet.recent_users() missing 1 required positional argument: 'request'
+2022-08-17 08:29:19,179 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:29:19,882 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:29:20,989 django.request ERROR Internal Server Error: /api/users/1/recent
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: UserAPIModelSet.recent_users() missing 1 required positional argument: 'request'
+2022-08-17 08:29:57,915 django.request WARNING Not Found: /api/users/1/recent/
+2022-08-17 08:29:59,512 django.request WARNING Not Found: /api/users/1/recent/
+2022-08-17 08:30:00,127 django.request WARNING Not Found: /api/users/1/recent/
+2022-08-17 08:30:00,399 django.request WARNING Not Found: /api/users/1/recent/
+2022-08-17 08:30:00,681 django.request WARNING Not Found: /api/users/1/recent/
+2022-08-17 08:30:00,945 django.request WARNING Not Found: /api/users/1/recent/
+2022-08-17 08:30:03,481 django.request ERROR Internal Server Error: /api/users/1/recent
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: UserAPIModelSet.recent_users() missing 1 required positional argument: 'request'
+2022-08-17 08:30:04,502 django.request ERROR Internal Server Error: /api/users/1/recent
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: UserAPIModelSet.recent_users() missing 1 required positional argument: 'request'
+2022-08-17 08:30:05,044 django.request ERROR Internal Server Error: /api/users/1/recent
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: UserAPIModelSet.recent_users() missing 1 required positional argument: 'request'
+2022-08-17 08:30:20,859 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:30:21,365 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:30:23,046 django.request ERROR Internal Server Error: /api/users/1/recent
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 71, in recent_users
+    page = self.paginate_queryset(recent_users)
+AttributeError: 'WSGIRequest' object has no attribute 'paginate_queryset'
+2022-08-17 08:30:45,826 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:30:46,333 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:30:50,713 django.request ERROR Internal Server Error: /api/users/1/recent
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 76, in recent_users
+    serializer = self.get_serializer(recent_users, many=True)
+AttributeError: 'WSGIRequest' object has no attribute 'get_serializer'
+2022-08-17 08:31:17,075 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:31:17,602 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:31:20,070 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:31:20,745 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:31:22,050 django.request ERROR Internal Server Error: /api/users/1/recent
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'email'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 77, in recent_users
+    return Response(serializer.data)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `email` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'email'.
+2022-08-17 08:36:31,747 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:36:32,369 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:36:59,779 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:37:00,279 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:37:06,438 django.request ERROR Internal Server Error: /api/users/model/
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 1988, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'model'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 25, in retrieve
+    user = User.users.get(id=pk)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 482, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 1990, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'model'.
+2022-08-17 08:37:27,718 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:37:28,165 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:37:32,687 django.request ERROR Internal Server Error: /api/users/model/
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 1988, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'model'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 25, in retrieve
+    user = User.users.get(id=pk)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 482, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 1990, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'model'.
+2022-08-17 08:38:09,395 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:38:10,137 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:38:12,693 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:38:13,111 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:38:13,926 django.request ERROR Internal Server Error: /api/users/model/
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 1988, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'model'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 25, in retrieve
+    user = User.users.get(id=pk)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 482, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 1990, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'model'.
+2022-08-17 08:38:49,052 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-17 08:38:49,561 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:39:08,684 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:39:09,258 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:39:11,994 django.request ERROR Internal Server Error: /api/users/model/
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 1988, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'model'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 25, in retrieve
+    user = User.users.get(id=pk)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 482, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 1990, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'model'.
+2022-08-17 08:39:14,109 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 08:39:14,110 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 08:41:27,187 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:41:27,677 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:41:56,420 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:42:10,183 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-17 08:42:10,597 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-17 08:42:14,991 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-17 08:42:14,992 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-17 08:42:18,217 django.request ERROR Internal Server Error: /api/users/model/
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 117, in view
+    handler = getattr(self, action)
+AttributeError: 'UserAPIModelSet' object has no attribute ''
+2022-08-18 01:40:49,792 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:41:09,037 django.request ERROR Internal Server Error: /api/users/model/
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 117, in view
+    handler = getattr(self, action)
+AttributeError: 'UserAPIModelSet' object has no attribute ''
+2022-08-18 01:41:09,793 django.request WARNING Not Found: /favicon.ico
+2022-08-18 01:41:39,917 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 01:41:40,615 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:41:41,011 django.request ERROR Internal Server Error: /api/users/model/
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 1988, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'model'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/todo_app/users/views.py", line 25, in retrieve
+    user = User.users.get(id=pk)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 482, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 1990, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'model'.
+2022-08-18 01:43:38,435 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 01:43:39,043 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:43:50,909 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 01:43:51,395 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:44:00,073 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 01:44:00,690 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:44:03,687 django.request WARNING Not Found: /api/users/model/1
+2022-08-18 01:44:16,568 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 01:44:17,480 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:44:19,970 django.request WARNING Not Found: /api/users/12/okara
+2022-08-18 01:44:23,136 django.request WARNING Not Found: /api/users/12/okara
+2022-08-18 01:44:25,436 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:44:25,436 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:44:35,810 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 01:44:36,448 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:44:44,925 django.request WARNING Not Found: /api/users/models/12/
+2022-08-18 01:44:49,338 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 01:44:49,924 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:44:52,006 django.request WARNING Not Found: /api/users/models/12/
+2022-08-18 01:44:56,414 django.request WARNING Not Found: /api/users/model/12/
+2022-08-18 01:44:58,294 django.request WARNING Not Found: /api/users/model/12
+2022-08-18 01:45:17,882 django.request WARNING Not Found: /api/users/model/12
+2022-08-18 01:45:18,653 django.request WARNING Not Found: /api/users/model/12
+2022-08-18 01:45:18,953 django.request WARNING Not Found: /api/users/model/12
+2022-08-18 01:45:19,230 django.request WARNING Not Found: /api/users/model/12
+2022-08-18 01:45:19,499 django.request WARNING Not Found: /api/users/model/12
+2022-08-18 01:45:22,033 django.request WARNING Not Found: /api/users/model/12/
+2022-08-18 01:45:26,894 django.request WARNING Not Found: /api/users/model/121
+2022-08-18 01:45:30,258 django.request WARNING Not Found: /api/users/model/1/
+2022-08-18 01:46:00,952 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 01:46:01,630 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:46:04,209 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:46:04,213 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:46:23,457 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 01:46:24,225 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:46:36,220 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 01:46:36,860 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:46:37,734 django.request WARNING Not Found: /api/users/1/
+2022-08-18 01:46:38,796 django.request WARNING Not Found: /api/users/1/
+2022-08-18 01:46:40,329 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 01:46:40,901 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:46:42,153 django.request WARNING Not Found: /api/users/1/
+2022-08-18 01:46:43,480 django.request WARNING Not Found: /api/users/1/
+2022-08-18 01:48:49,797 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 01:48:50,317 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:49:23,145 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 01:49:23,697 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:49:26,128 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:49:26,128 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:49:32,679 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 01:49:33,180 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:49:38,750 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 01:49:39,212 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:49:40,357 django.request WARNING Not Found: /api/users/1/
+2022-08-18 01:49:43,176 django.request WARNING Not Found: /api/users1/
+2022-08-18 01:49:47,787 django.request WARNING Not Found: /api/users/1/
+2022-08-18 01:49:51,352 django.request WARNING Not Found: /api/users/11/
+2022-08-18 01:50:16,064 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 01:50:16,550 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:50:19,434 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:50:19,435 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:50:59,480 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 01:51:00,301 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:51:02,114 django.request WARNING Forbidden: /api/users/
+2022-08-18 01:51:16,882 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:51:16,882 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:51:23,583 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:51:23,583 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:51:33,154 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 01:51:33,701 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:51:34,194 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:51:34,195 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:51:37,436 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:51:37,436 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:51:41,340 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 01:51:41,786 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:51:42,567 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:51:42,568 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:51:44,111 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:51:44,111 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:51:46,650 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:51:46,651 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:51:49,552 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:51:49,552 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:53:04,845 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 01:53:05,564 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:53:06,987 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:53:06,988 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:53:09,377 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:53:09,378 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:53:15,265 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 01:53:15,742 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:58:01,265 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 01:58:01,993 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:58:15,962 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 01:58:16,466 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:58:18,906 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:58:18,906 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:58:21,964 django.request WARNING Not Found: /api/users/1/
+2022-08-18 01:58:25,011 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:58:25,011 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:58:44,104 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 01:58:44,741 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:58:46,178 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 01:58:46,795 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:58:48,043 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 01:58:48,503 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 01:58:50,253 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:58:50,254 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 01:58:52,358 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 01:58:52,358 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:45:02,928 django.utils.autoreload INFO /Users/hamidayub/todo_app/todo_app/settings.py changed, reloading.
+2022-08-18 02:45:03,637 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 02:45:26,066 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:45:26,066 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:45:26,938 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:45:26,938 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:45:41,591 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 02:45:43,174 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:45:43,174 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:45:43,940 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:45:43,940 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:45:44,391 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:45:44,392 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:45:44,732 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:45:44,732 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:45:45,119 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:45:45,120 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:55:25,093 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 02:55:25,748 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 02:55:28,398 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:55:28,399 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:55:35,511 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:55:35,512 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:55:36,316 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:55:36,316 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:55:36,590 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:55:36,590 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:55:36,801 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:55:36,801 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:55:37,020 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:55:37,020 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:55:37,207 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:55:37,207 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:55:37,408 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:55:37,408 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:55:39,645 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:55:39,647 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:55:43,283 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 02:55:43,970 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 02:56:06,343 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 02:56:07,023 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 02:56:08,161 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:56:08,162 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:56:09,035 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:56:09,036 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:56:09,266 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:56:09,266 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:56:09,468 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:56:09,469 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:56:44,793 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 02:56:45,362 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 02:56:46,917 django.request WARNING Forbidden: /api/users/
+2022-08-18 02:56:57,431 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:56:57,431 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:57:13,542 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 02:57:14,048 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 02:58:33,424 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 02:58:34,184 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 02:59:02,938 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 02:59:03,515 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 02:59:13,653 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:59:13,654 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 02:59:13,713 django.request WARNING Not Found: /api/task/1
+2022-08-18 02:59:22,202 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 02:59:22,202 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 03:01:08,404 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 03:01:09,060 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 03:01:11,211 django.request ERROR Internal Server Error: /api/task/32
+Traceback (most recent call last):
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hamidayub/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hamidayub/todo_app/base/views.py", line 81, in get
+    task = self.get_object(pk)
+  File "/Users/hamidayub/todo_app/base/views.py", line 75, in get_object
+    task['auth'] = self.request.auth
+TypeError: 'Task' object does not support item assignment
+2022-08-18 03:02:12,062 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 03:02:12,570 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 03:02:25,410 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 03:02:26,037 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 03:02:30,772 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 03:02:30,772 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 03:02:31,737 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 03:02:31,738 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 03:02:40,343 django.request WARNING Forbidden: /api/users/
+2022-08-18 03:03:43,669 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 03:03:44,279 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 03:03:49,079 django.request WARNING Forbidden: /api/users/
+2022-08-18 03:03:53,036 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-18 03:03:53,036 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-18 03:04:00,708 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-18 03:04:01,224 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 03:04:01,987 django.request WARNING Unauthorized: /api/users/
+2022-08-18 03:04:32,147 django.request WARNING Unauthorized: /api/users/
+2022-08-18 03:46:45,887 django.request WARNING Unauthorized: /api/users/
+2022-08-18 03:46:46,771 django.request WARNING Unauthorized: /api/users/
+2022-08-18 03:46:52,008 django.request WARNING Unauthorized: /api/users/
+2022-08-18 03:46:55,620 django.request WARNING Unauthorized: /api/users/
+2022-08-18 03:48:03,167 django.utils.autoreload INFO /Users/hamidayub/todo_app/todo_app/settings.py changed, reloading.
+2022-08-18 03:48:18,183 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 03:50:57,498 django.utils.autoreload INFO /Users/hamidayub/todo_app/todo_app/settings.py changed, reloading.
+2022-08-18 03:51:04,902 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 04:40:40,449 django.utils.autoreload INFO /Users/hamidayub/todo_app/todo_app/settings.py changed, reloading.
+2022-08-18 04:40:41,283 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:40:50,332 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/models.py changed, reloading.
+2022-08-18 07:40:51,707 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:41:31,819 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/models.py changed, reloading.
+2022-08-18 07:41:32,387 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:41:56,807 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/models.py changed, reloading.
+2022-08-18 07:41:57,290 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:43:02,332 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/models.py changed, reloading.
+2022-08-18 07:43:02,942 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:43:13,909 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/models.py changed, reloading.
+2022-08-18 07:43:14,500 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:44:35,557 django.utils.autoreload INFO /Users/hamidayub/todo_app/todo_app/settings.py changed, reloading.
+2022-08-18 07:44:36,249 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:44:38,927 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:45:56,434 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/models.py changed, reloading.
+2022-08-18 07:45:57,050 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:46:09,054 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/models.py changed, reloading.
+2022-08-18 07:46:09,498 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:46:11,078 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/models.py changed, reloading.
+2022-08-18 07:46:11,856 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:46:15,356 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/models.py changed, reloading.
+2022-08-18 07:46:16,022 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:46:39,346 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/models.py changed, reloading.
+2022-08-18 07:46:39,990 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:46:54,508 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:56:38,628 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/urls.py changed, reloading.
+2022-08-18 07:56:39,382 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:56:54,409 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/urls.py changed, reloading.
+2022-08-18 07:56:54,919 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:57:00,661 django.request WARNING Method Not Allowed: /login
+2022-08-18 07:59:14,075 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/urls.py changed, reloading.
+2022-08-18 07:59:14,649 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 07:59:16,052 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/urls.py changed, reloading.
+2022-08-18 07:59:16,634 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 08:00:51,791 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 08:00:52,648 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 08:01:56,774 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 08:02:32,392 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 08:02:32,891 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 08:02:48,957 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-18 08:02:49,437 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 08:02:58,960 django.request WARNING Method Not Allowed: /api/users/login
+2022-08-18 08:05:27,146 django.request WARNING Bad Request: /api/users/login
+2022-08-18 08:05:34,283 django.request WARNING Bad Request: /api/users/login
+2022-08-18 08:05:42,164 django.request WARNING Bad Request: /api/users/login
+2022-08-18 08:22:16,762 django.request WARNING Bad Request: /api/users/login
+2022-08-18 08:24:38,829 django.request WARNING Not Found: /api//api/users/login
+2022-08-18 08:25:22,338 django.request WARNING Not Found: /api//api/users/login
+2022-08-18 08:29:01,468 django.request WARNING Not Found: //api/users/login
+2022-08-18 08:34:53,442 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 08:34:54,482 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 08:35:35,836 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:35:45,862 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:35:46,927 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:35:47,280 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:35:47,521 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:35:47,763 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:35:47,989 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:35:48,188 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:35:48,377 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:35:48,559 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:35:48,754 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:35:48,961 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:35:49,120 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:36:05,927 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:36:06,790 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:36:07,029 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:36:07,269 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:36:07,468 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:36:07,668 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:36:07,869 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:36:08,138 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:36:08,435 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:36:08,691 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:36:09,033 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:36:09,407 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:36:57,360 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:37:32,745 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:37:57,739 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 08:37:58,475 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 08:39:29,384 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 08:39:30,084 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 08:39:32,551 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:39:40,303 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:39:41,103 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:39:41,759 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:59:16,583 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 08:59:53,518 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 09:00:13,650 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 09:03:21,643 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 09:03:23,633 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 09:04:20,195 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 09:04:20,799 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 09:04:28,623 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 09:04:29,057 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 09:04:53,038 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 09:04:53,484 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 09:05:06,137 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 09:05:06,661 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 09:05:13,246 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 09:05:13,855 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 09:05:21,353 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 09:05:21,880 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 09:05:26,481 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 09:05:26,899 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 09:05:36,218 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 09:05:42,924 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 09:05:43,371 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 09:05:47,830 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 09:05:48,550 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 09:05:54,154 django.request WARNING Forbidden: /api/mytasks
+2022-08-18 09:06:20,326 django.utils.autoreload INFO /Users/hamidayub/todo_app/todo_app/settings.py changed, reloading.
+2022-08-18 09:06:21,127 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 09:06:25,389 django.request WARNING Forbidden: /api/mytasks
+2022-08-18 09:06:26,276 django.request WARNING Forbidden: /api/mytasks
+2022-08-18 09:06:33,536 django.request WARNING Forbidden: /api/mytasks
+2022-08-18 09:28:59,894 django.request WARNING Forbidden: /api/mytasks
+2022-08-18 09:29:00,531 django.request WARNING Forbidden: /api/mytasks
+2022-08-18 09:29:00,819 django.request WARNING Forbidden: /api/mytasks
+2022-08-18 09:29:01,050 django.request WARNING Forbidden: /api/mytasks
+2022-08-18 09:29:01,285 django.request WARNING Forbidden: /api/mytasks
+2022-08-18 09:29:05,248 django.utils.autoreload INFO /Users/hamidayub/todo_app/todo_app/settings.py changed, reloading.
+2022-08-18 09:29:06,298 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 09:29:07,573 django.request WARNING Forbidden: /api/mytasks
+2022-08-18 09:29:11,002 django.utils.autoreload INFO /Users/hamidayub/todo_app/todo_app/settings.py changed, reloading.
+2022-08-18 09:29:11,666 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 09:29:15,441 django.request WARNING Forbidden: /api/mytasks
+2022-08-18 09:29:19,734 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 09:29:20,351 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 09:29:21,722 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 09:29:22,576 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 09:29:35,272 django.utils.autoreload INFO /Users/hamidayub/todo_app/base/views.py changed, reloading.
+2022-08-18 09:29:35,891 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-18 09:29:47,702 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 09:36:21,741 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 09:36:26,002 django.request WARNING Unauthorized: /api/mytasks
+2022-08-18 09:37:59,873 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 01:53:29,261 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 01:53:44,898 django.request WARNING Not Found: /favicon.ico
+2022-08-19 01:53:45,871 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-19 01:53:45,871 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-19 01:53:45,884 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-19 01:53:45,885 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-19 01:53:48,402 django.request WARNING Unauthorized: /api/users/
+2022-08-19 01:53:48,475 django.request WARNING Unauthorized: /api/users/
+2022-08-19 01:53:48,524 django.request WARNING Unauthorized: /api/users/
+2022-08-19 01:54:17,403 django.request WARNING Unauthorized: /api/users/
+2022-08-19 01:54:22,682 django.request WARNING Unauthorized: /api/users/
+2022-08-19 01:54:33,942 django.request WARNING Unauthorized: /api/users/
+2022-08-19 01:55:02,107 django.request WARNING Unauthorized: /api/users/
+2022-08-19 01:55:05,866 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 01:55:06,691 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 01:55:07,449 django.request WARNING Forbidden: /api/users/
+2022-08-19 01:55:32,938 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 01:55:33,543 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 01:55:33,913 django.request WARNING Unauthorized: /api/users/
+2022-08-19 01:59:13,624 django.request WARNING Unauthorized: /api/users/
+2022-08-19 02:01:21,252 django.request WARNING Unauthorized: /api/users/
+2022-08-19 02:01:49,910 django.request WARNING Unauthorized: /api/users/
+2022-08-19 02:04:12,376 django.request WARNING Unauthorized: /api/users/
+2022-08-19 02:05:16,015 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 02:05:16,476 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:05:41,515 django.request WARNING Unauthorized: /api/users/
+2022-08-19 02:07:25,554 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 02:07:26,037 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:07:49,537 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-19 02:07:49,537 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-19 02:07:59,922 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 02:08:00,411 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:08:02,381 django.request WARNING Unauthorized: /api/users/
+2022-08-19 02:09:00,033 django.request WARNING Unauthorized: /api/users/
+2022-08-19 02:10:12,035 django.request WARNING Unauthorized: /api/users/
+2022-08-19 02:11:08,633 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-19 02:11:09,110 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:11:13,484 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-19 02:11:13,944 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:11:15,257 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/urls.py changed, reloading.
+2022-08-19 02:11:15,698 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:12:02,612 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 02:12:03,189 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:12:04,931 django.request WARNING Forbidden: /api/users/
+2022-08-19 02:12:07,691 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 02:12:08,154 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:12:10,174 django.request WARNING Unauthorized: /api/users/
+2022-08-19 02:12:17,273 django.request WARNING Unauthorized: /api/users/
+2022-08-19 02:12:24,223 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 02:12:24,975 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:12:30,848 django.request WARNING Forbidden: /api/users/
+2022-08-19 02:12:35,723 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 02:12:36,214 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:13:15,905 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 02:13:16,368 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:13:20,777 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 02:13:21,368 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:17:09,063 django.utils.autoreload INFO /Users/hamidayub/todo_app/todo_app/settings.py changed, reloading.
+2022-08-19 02:17:11,164 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:17:21,718 django.request WARNING Unauthorized: /api/users/
+2022-08-19 02:21:06,500 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 02:21:07,005 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:21:13,530 django.request WARNING Forbidden: /api/users/
+2022-08-19 02:22:08,723 django.utils.autoreload INFO /Users/hamidayub/todo_app/todo_app/settings.py changed, reloading.
+2022-08-19 02:22:09,288 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:22:16,064 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:22:17,781 django.request WARNING Forbidden: /api/users/
+2022-08-19 02:23:25,965 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 02:23:26,412 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:28:08,994 django.utils.autoreload INFO /Users/hamidayub/todo_app/todo_app/settings.py changed, reloading.
+2022-08-19 02:28:09,460 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:28:16,057 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 02:28:16,550 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:28:19,230 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-19 02:28:19,230 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-19 02:32:26,631 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 02:32:27,054 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:32:28,546 MARKDOWN DEBUG Successfully imported extension module "markdown.extensions.toc".
+2022-08-19 02:32:28,547 MARKDOWN DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-08-19 02:32:43,425 django.request WARNING Unauthorized: /api/users/
+2022-08-19 02:32:50,894 django.request WARNING Unauthorized: /api/users/
+2022-08-19 02:32:53,894 django.request WARNING Unauthorized: /api/users/
+2022-08-19 02:34:05,027 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 02:34:05,647 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:34:06,545 django.request WARNING Unauthorized: /api/users/
+2022-08-19 02:34:16,885 django.request WARNING Unauthorized: /api/users/
+2022-08-19 02:34:26,775 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 02:34:27,357 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:37:11,247 django.utils.autoreload INFO /Users/hamidayub/todo_app/users/views.py changed, reloading.
+2022-08-19 02:37:11,772 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 02:45:11,094 django.request WARNING Unauthorized: /api/users/
+2022-08-19 05:13:01,671 django.request WARNING Not Found: /login/
+2022-08-19 05:13:07,673 django.request WARNING Not Found: /login/
+2022-08-19 05:14:18,252 django.request WARNING Not Found: /login/
+2022-08-19 05:14:35,297 django.request WARNING Not Found: /login/
+2022-08-19 05:14:53,974 django.request WARNING Not Found: /login/
+2022-08-19 05:15:19,836 django.request WARNING Not Found: /login
+2022-08-19 05:15:24,374 django.request WARNING Not Found: /login
+2022-08-19 05:16:16,242 django.request WARNING Not Found: /login
+2022-08-19 05:16:39,312 django.request WARNING Not Found: /login
+2022-08-19 05:26:16,945 django.request WARNING Not Found: /login
+2022-08-19 06:27:20,149 django.request WARNING Not Found: /login
+2022-08-19 06:28:50,860 django.utils.autoreload INFO Watching for file changes with StatReloader
+2022-08-19 06:28:52,113 django.request WARNING Not Found: /favicon.ico
+2022-08-19 06:29:15,882 django.request WARNING Not Found: /login
+2022-08-19 06:59:14,570 django.request WARNING Not Found: /register/
+2022-08-19 07:00:49,688 django.utils.autoreload INFO Watching for file changes with StatReloader

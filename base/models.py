@@ -1,13 +1,10 @@
-from codecs import backslashreplace_errors
-from doctest import BLANKLINE_MARKER
-from pyexpat import model
-from statistics import mode
 from django.utils import timezone
 from .validations import DescriptionValidator
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
 from django.contrib.auth.models import PermissionsMixin
-from django.db.models.signals import pre_save
+from django.db.models.signals import pre_save, post_save
+from rest_framework.authtoken.models import Token
 
 
 class UserManager(BaseUserManager):
@@ -107,20 +104,6 @@ class Task(models.Model):
     class Meta:
         ordering = ['complete']
 
-
-def task_pre_save(sender, instance, *args, **kwargs):
-    if not instance.title.istitle():
-        instance.title = instance.title.title()
-        instance.save()
-
-    if instance.description and not instance.description[0].isupper():
-        instance.description = instance.description.capitalize()
-        instance.save()
-
-
-pre_save.connect(task_pre_save, sender=Task)
-
-
 class Time(models.Model):
     time = models.DateTimeField(null=True, blank=True)
     timezone = models.CharField(max_length=20, default='PST')
@@ -131,3 +114,20 @@ class Time(models.Model):
 
     class Meta:
         ordering = ['id']
+
+
+def task_pre_save(sender, instance, *args, **kwargs):
+    if not instance.title.istitle():
+        instance.title = instance.title.title()
+        instance.save()
+
+    if instance.description and not instance.description[0].isupper():
+        instance.description = instance.description.capitalize()
+        instance.save()
+pre_save.connect(task_pre_save, sender=Task)
+
+
+def user_post_save(sender, instance, created=False, **kwargs):
+    if created:
+        Token.objects.create(user=instance)
+post_save.connect(user_post_save, sender=User)

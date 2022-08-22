@@ -39,9 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'base.apps.BaseConfig',
+    'users',
     'debug_toolbar',
     'django_filters',
     'rest_framework',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
@@ -53,13 +55,19 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-
 ]
 
 
 AUTHENTICATION_BACKENDS = [
     'base.auth.EmailAuthBackend',
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ]
+}
 
 # LOGGING = {
 #     'version': 1,
@@ -202,5 +210,5 @@ LOGGING = {
 }
 
 CRONJOBS = [
-    ('*/5 * * * *', 'base.cron.convert_time')
+    ('*/1 * * * *', 'base.cron.convert_time')
 ]

@@ -1,9 +1,6 @@
-from asyncio import tasks
 from django.urls import path
-from .views import IndexView, TaskChangeAPI, TaskDetailView, TaskCreateView, TaskEdit, TaskEditUsingMixin, TaskListAPI, TaskListUsingMixin, TaskUpdateView, TaskDeleteView, CustomLoginView, CustomRegisterView, TaskChangeAPI, TasksView, TimeView, api_overview
+from .views import CurrentUserTasks, IndexView, TaskChangeAPI, TaskDetailView, TaskCreateView, TaskEditUsingMixin, TaskListAPI, TaskListUsingMixin, TaskUpdateView, TaskDeleteView, CustomLoginView, CustomRegisterView, TaskChangeAPI, TimeView, api_overview
 from django.contrib.auth.views import LogoutView
-
-# from rest_framework.urlpatterns import format_suffix_patterns
 
 app_name = 'base'
 
@@ -21,6 +18,9 @@ urlpatterns = [
 
 
     path('api/', api_overview, name="api_overview"),
+
+    path('api/mytasks', CurrentUserTasks.as_view(), name="my-tasks"),
+
     path('api/tasks', TaskListAPI.as_view(), name="tasks"),
     path('api/task/<int:pk>', TaskChangeAPI.as_view(), name="task-change"),
 

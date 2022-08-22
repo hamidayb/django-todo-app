@@ -1,3 +1,4 @@
+from datetime import datetime
 from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
 from django.views.generic.edit import CreateView, UpdateView, DeleteView, FormView
@@ -5,8 +6,7 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView, FormVi
 from django.contrib.auth.views import LoginView
 from django.contrib.auth.mixins import LoginRequiredMixin
 
-from datetime import datetime
-import time
+from django.core.exceptions import ValidationError
 
 from django.contrib.auth import login, authenticate
 from django.http import Http404
@@ -14,6 +14,8 @@ from django.http import Http404
 from rest_framework.decorators import api_view
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from rest_framework.authentication import TokenAuthentication
+from rest_framework.permissions import IsAuthenticated
 from rest_framework import mixins
 from rest_framework import generics
 from rest_framework import status
@@ -25,6 +27,7 @@ from .forms import UserRegistrationForm
 from .filters import TaskFilter
 from .models import Task, Time
 from .serializers import TaskSerializer
+from .mixins import CurrentUserLookupMixin
 
 
 class TimeView(ListView):
@@ -43,9 +46,8 @@ def api_overview(request):
         '(Using Mixin) Add Task / Display all Tasks': 'api/task-list',
         '(Using Mixin) Task Detail / Update / Delete': 'api/task-edit/<int:pk>',
     }
-    dt = datetime.utcnow()
 
-    return Response(time.tzname)
+    return Response(api_urls)
 
 
 class TaskListAPI(APIView):
@@ -89,6 +91,11 @@ class TaskChangeAPI(APIView):
         task.delete()
         return Response('Task Deleted')
 
+    def perform_destroy(self, instance):
+        if(instance.created == False):
+            raise ValidationError('Task should be completed first.')
+        instance.destroy()
+
 
 class TaskListUsingMixin(mixins.ListModelMixin, mixins.CreateModelMixin, generics.GenericAPIView):
     queryset = Task.tasks.all()
@@ -99,6 +106,19 @@ class TaskListUsingMixin(mixins.ListModelMixin, mixins.CreateModelMixin, generic
 
     def post(self, request, *args, **kwargs):
         return self.create(request, *args, **kwargs)
+
+    def perform_create(self, serializer):
+        serializer.save(user=self.request.user)
+
+
+class CurrentUserTasks(CurrentUserLookupMixin, generics.GenericAPIView):
+    authentication_classes = [TokenAuthentication]
+    permission_classes = [IsAuthenticated]
+    queryset = Task.tasks.all()
+    serializer_class = TaskSerializer
+
+    def get(self, request, *args, **kwargs):
+        return self.list(request, *args, **kwargs)
 
 
 class TaskEditUsingMixin(mixins.RetrieveModelMixin, mixins.UpdateModelMixin, mixins.DestroyModelMixin, generics.GenericAPIView):
@@ -113,6 +133,9 @@ class TaskEditUsingMixin(mixins.RetrieveModelMixin, mixins.UpdateModelMixin, mix
 
     def delete(self, request, *args, **kwargs):
         return self.destroy(request, *args, **kwargs)
+
+    def perform_update(self, serializer):
+        serializer.save(user=self.request.user)
 
 
 class TasksView(generics.ListCreateAPIView):
@@ -178,10 +201,15 @@ class IndexView(LoginRequiredMixin, ListView):
         return context
 
 
-class TaskDetailView(LoginRequiredMixin, DetailView):
-    model = Task
-    context_object_name = 'task'
+class TaskDetailView(DetailView):
     template_name = 'base/task.html'
+    queryset = Task.tasks.all()
+
+    def get_object(self):
+        task = super().get_object()
+        task.created = datetime.now()
+        task.save()
+        return task
 
 
 class TaskCreateView(LoginRequiredMixin, CreateView):
